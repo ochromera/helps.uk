@@ -7,11 +7,17 @@
     align-items: center;
     padding: 1rem;
     z-index: 10;
+    background: var(--black);
     /*text-transform: uppercase;*/
 }
 
 .nav-menu {
     display: flex;
+}
+
+.nav-menu.active {
+    left: 0;
+    background: black;
 }
 
 .nav-menu li {
@@ -48,9 +54,6 @@
         background: rgba(0, 0, 0, 0);
     }
 
-    .nav-menu.active {
-        left: 0;
-    }
 
     .nav-menu li {
         padding: 1rem 0;

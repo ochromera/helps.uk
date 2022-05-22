@@ -1,0 +1,54 @@
+/*.photo_background {*/
+/*    background: radial-gradient(137.28% 137.28% at 50% 43.26%, rgba(0, 0, 0, 0) 0%, #000000 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 44.35%, #000000 100%), linear-gradient(105.97deg, rgba(0, 0, 0, 0) 50%, #000000 100%), linear-gradient(254.03deg, rgba(0, 0, 0, 0) 50%, #000000 100%);*/
+
+/*}*/
+
+.photo_background .img {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.wrapper_header {
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.wrapper_header .content {
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 40vh;
+}
+
+.wrapper_header .content h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.wrapper_header .btn {
+    margin: 1rem .2rem;
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content p {
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+    }
+
+}
+

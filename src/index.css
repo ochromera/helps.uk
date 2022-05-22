@@ -20,14 +20,15 @@ a {
 
 }
 
-h1, p, a {
-    color: white;
+h1, h4  p, a {
+    color: var(--white);
 }
 
 
 ul {
     list-style-type: none;
 }
+
 
 
 .btn {
@@ -40,9 +41,6 @@ ul {
     cursor: pointer;
 }
 
-.btn-light {
-    background-color: rgba(255, 255, 255, .2);
-}
 
 .btn:hover {
     background-color: rgba(255, 255, 255, .2);
