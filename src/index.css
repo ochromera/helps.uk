@@ -41,6 +41,16 @@ ul {
     cursor: pointer;
 }
 
+.btn-red {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: transparent;
+    color: #EE0808;
+    border: 1px solid #EE0808 ;
+    cursor: pointer;
+}
+
 
 .btn:hover {
     background-color: rgba(255, 255, 255, .2);

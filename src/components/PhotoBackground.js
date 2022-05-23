@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 import './photoBackground.css'
 import Background from '../assets/Background.jpg';
+import HomeBlock from  '../components/HomeBlock';
 
 
 const PhotoBackground = () => {
@@ -20,6 +21,7 @@ const PhotoBackground = () => {
                     <div>
                         <Link to='/donate' className='btn'>Donate </Link>
                     </div>
+                    <HomeBlock />
                 </div>
             </div>
         </div>

@@ -4,8 +4,9 @@ import Footer from "./Footer";
 
 
 const Donate = () => {
+
     return (
-        <div>
+    <div>
             <NavBar />
             <Footer />
         </div>

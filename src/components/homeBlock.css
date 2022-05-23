@@ -1,0 +1,49 @@
+.block {
+    position: relative;
+    width: 1230px;
+    height: 556px;
+    left: 345px;
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.card-container {
+    color: black;
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+    background: #FFFFFF;
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card .h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.card .bar {
+    width: 50%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+
+.card .bar {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.card p {
+    padding: 1rem 0 ;
+    font-size: 1.2rem;
+}
