@@ -18,8 +18,8 @@ const PhotoBackground = () => {
                     <h1>lorem ipsum</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida diam sed ornare auctor</p>
 
-                    <div>
-                        <Link to='/donate' className='btn'>Donate </Link>
+                    <div className="wrapper_btn" >
+                        <Link to='/donate' className='btn-red'>Donate </Link>
                     </div>
                     <HomeBlock />
                 </div>
