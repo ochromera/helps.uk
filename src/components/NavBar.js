@@ -10,24 +10,25 @@ const NavBar = () => {
 
     return (
         <div className="header">
-            <Link to="/"><h1>Meduza</h1></Link>
-            <ul className={click ? "nav-menu active" : "nav-menu" }>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/projects">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
-                </li>
-            </ul>
+            <Link to="/"><h1>HelpsUA</h1></Link>
+            <div className="header_list">
+                <ul className={click ? "nav-menu active" : "nav-menu" }>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
             <div className="hamburger" onClick={handleClick}>
                 {click? (<FaTimes size={20} style={{color: "#fff"}} />) :  <FaBars size={20} style={{color: "#fff"}}/> }
-
             </div>
         </div>
     )

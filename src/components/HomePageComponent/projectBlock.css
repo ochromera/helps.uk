@@ -1,0 +1,136 @@
+.primary-block {
+    position: absolute;
+    width: 1230px;
+    height: 564px;
+    left: 237px;
+    top: 840px;
+
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+
+.block-item_1 {
+    position: absolute;
+    width: 370px;
+    height: 504px;
+    left: 30px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.block-item_2 {
+    position: absolute;
+    width: 370px;
+    height: 504px;
+    left: 430px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.block-item_3{
+
+    position: absolute;
+    width: 370px;
+    height: 504px;
+    left: 830px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+.img {
+    position: absolute;
+    width: 370px;
+    height: 250px;
+    left: 0;
+    top: 0;
+
+}
+
+.primary-block h3 {
+    width: 83px;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #BDBDBD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+
+    position: absolute;
+    width: 330px;
+    height: 142px;
+    left: 20px;
+    top: 274px;
+
+}
+
+.content h1 {
+    width: 330px;
+    height: 52px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.content p {
+    width: 330px;
+    height: 63px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4F4F4F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+section {
+    word-break: break-all;
+}
+
+
+.btn-red {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 10px;
+
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    left: 20px;
+    top: 440px;
+
+    border: 2px solid #EE0808;
+    border-radius: 5px;
+}

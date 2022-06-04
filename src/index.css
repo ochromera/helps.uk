@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@900&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Noto+Sans+KR:wght@300;400;500;700&family=Outfit:wght@900&family=Roboto:ital,wght@1,300&display=swap');
+
 
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 html,
 body {
     margin: 0;
     padding: 0;
     color: var(--white);
     background: var(--black);
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -20,16 +20,10 @@ a {
 
 }
 
-h1, h4  p, a {
-    color: var(--white);
-}
-
 
 ul {
     list-style-type: none;
 }
-
-
 
 .btn {
     padding: 12px 32px;
@@ -41,28 +35,11 @@ ul {
     cursor: pointer;
 }
 
-.btn-red {
-    padding: 12px 32px;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    background: transparent;
-    color: #EE0808;
-    border: 1px solid #EE0808 ;
-    cursor: pointer;
-}
-
-
-.btn:hover {
-    background-color: rgba(255, 255, 255, .2);
-
-}
-
-
 :root {
     --black: #000000;
     --white: #FFFFFF;
     --grey-light: #F2F2F2;
     --red: #EE0808;
     --font-family: 'Noto Sans', sans-serif;
-
+    --grey: #4F4F4F;
 }

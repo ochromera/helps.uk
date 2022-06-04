@@ -29,8 +29,7 @@ const Footer = () => {
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                     numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                     optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                    nihil, eveniet aliquid culpa officia aut! Impe </p>
+                    </p>
                 <div className="social">
                     <FaFacebook  size={30} style={{color: "#ffffff", marginRight: "1rem"}} />
                     <FaTwitter  size={30} style={{color: "#ffffff", marginRight: "1rem"}} />

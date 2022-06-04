@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="56813392-d670-4aa4-a781-9ee315a74058" name="ftp.ascendingukraine.com" url="http://ascendingukraine.com">
-        <fileTransfer host="ascendingukraine.com" port="21">
+      <webServer id="059c39d8-b559-463a-b6fb-76e59c4da744" name="ftp.ascendingukraine.com" url="http://ftp.ascendingukraine.com">
+        <fileTransfer host="ftp.ascendingukraine.com" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
